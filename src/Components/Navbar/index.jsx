@@ -31,7 +31,7 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink
-            to='/fast-food'
+            to='/fastFood'
             className={({ isActive }) =>
               isActive ? activeStyle : undefined
             }>
